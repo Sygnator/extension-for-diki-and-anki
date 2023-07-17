@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Extension for Diki and Anki",
+    "short_name": "DikiAnkiExtension",
+    "version": "1.0.0",
+    "author": "Sygnator",
+    "description": "The extension allows you to search for words in the Diki dictionary and automatically creates fisks for Anki",
+    "icons": {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "action": {
+        "default_icon": "/images/icon128.png"
+    },
+    "background": {
+        "service_worker": "contextMenu.js"
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+}
